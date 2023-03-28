@@ -1,0 +1,15 @@
+.section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.title {
+    max-width: 25.6rem;
+    font-size: 3.4rem;
+    margin-bottom: 0;
+    font-weight: normal;
+}
+.title span {
+    font-weight: bold;
+    color: tomato;
+}
