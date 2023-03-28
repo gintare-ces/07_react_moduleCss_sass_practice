@@ -1,0 +1,36 @@
+.circle {
+    display: inline-block;
+    width: 15.7rem;
+    height: 15.7rem;
+    border: 8px solid black;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.value {
+    font-size: 4rem;
+    font-weight: 600;
+}
+.time {
+    font-size: 1.9rem;
+    font-weight: normal;
+}
+.violet {
+    border-color: blueviolet;
+    color: tomato;
+}
+
+.sky {
+    border-color: skyblue;
+    color: skyblue;
+}
+.blue {
+    border-color: blue;
+    color: blue;
+}
+.green {
+    border-color: green;
+    color: green;
+}
