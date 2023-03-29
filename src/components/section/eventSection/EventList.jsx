@@ -2,12 +2,15 @@ import React from 'react'
 import Grid from '../../ui/grid/Grid'
 import SingleEvent from './SingleEvent'
 
-function EventList() {
+function EventList({list}) {
   return (
     <Grid ul>
-        <SingleEvent />
-        <SingleEvent />
-        <SingleEvent />
+        {list.map((eObj) => (
+            <SingleEvent key={eObj.title} item={eObj} icon={eObj.icon}/>
+
+        ))}
+        {/* <SingleEvent />
+        <SingleEvent /> */}
     </Grid>
   )
 }

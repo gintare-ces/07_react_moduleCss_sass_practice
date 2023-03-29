@@ -1,0 +1,8 @@
+.title {
+    font-size: 4rem;
+    text-align: center;
+  }
+  .title span {
+    font-weight: normal;
+    display: block;
+  }

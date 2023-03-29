@@ -6,9 +6,9 @@
     cursor: pointer;
   }
   /* niekada nenaudojam tago be klases nes galios visur */
-  button {
+  /* button {
     background-color: tomato !important;
-  }
+  } */
   .btnLg {
     padding: 0.7rem 2rem;
     font-size: 2rem;
