@@ -12,6 +12,8 @@ function ConferenceSection() {
         <SectionTitle title={'Schedule'} subtitle={'Conference schedule'} />
         <Grid className={css.control}>
           <ConferenceButton title="Day 1" date="2020-02-02" />
+          <ConferenceButton title="Day 2" date="2020-02-03" />
+          <ConferenceButton title="Day 3" date="2020-02-04" />
           {/* <ConferenceCard /> */}
         </Grid>
       </div>

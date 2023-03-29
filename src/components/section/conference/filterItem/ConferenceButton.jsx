@@ -1,12 +1,20 @@
-import React from "react";
+import React, { useState } from "react";
 import css from './ConferenceButton.module.css';
 
-function ConferenceButton() {
+function ConferenceButton({ title, date }) {
+  const [isActive, setIsActive] = useState(false);
+
+  const activeClass = isActive ? css.active : '';
   return (
     
-      <div className={css.redPill} role="button">
-        <h4 className={css.title}>title</h4>
-        <p>Feb 20, 2019</p>
+      <div 
+        onClick={() => {
+          setIsActive(!isActive)
+        }} 
+        className={[css.redPill, activeClass].join(' ')} 
+        role="button">
+        <h4 className={css.title}>{title}</h4>
+        <p>{date}</p>
       </div>
      
     

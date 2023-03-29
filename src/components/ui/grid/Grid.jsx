@@ -17,7 +17,7 @@ function Grid({ cols, ul, children, className }) {
 
   // }
   return (
-    <Element style={inlineStyleObj} className={[css.grid, className].join('')}>
+    <Element style={inlineStyleObj} className={[css.grid, className].join(' ')}>
       {children}
     </Element>
   );

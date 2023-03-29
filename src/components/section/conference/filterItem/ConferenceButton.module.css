@@ -9,7 +9,8 @@
     text-align: center;
     transition: all 0.2s ease-out;
 }
-.redPill:hover {
+.redPill:hover, 
+.active {
     background-color: tomato;
     color: #fff;
 }
