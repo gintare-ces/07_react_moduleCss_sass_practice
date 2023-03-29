@@ -1,22 +1,22 @@
 import React from "react";
-import Button from "../../ui/button/Button";
-import Grid from "../../ui/grid/Grid";
+import Grid from "../../../ui/grid/Grid";
+import css from './ConferenceButton.module.css';
 
 function ConferenceButton() {
   return (
     <Grid>
-      <Button>
-        <h4>Day 1</h4>
+      <div className={css.redPill}>
+        <h4 className={css.title}>title</h4>
         <p>Feb 20, 2019</p>
-      </Button>
-      <Button>
+      </div>
+      <div>
         <h4>Day 2</h4>
         <p>Mar 29, 2020</p>
-      </Button>
-      <Button>
+      </div>
+      <div>
         <h4>Day 3</h4>
         <p>Dec 29, 2019</p>
-      </Button>
+      </div>
     </Grid>
   );
 }

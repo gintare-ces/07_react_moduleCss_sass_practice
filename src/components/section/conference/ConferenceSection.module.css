@@ -1,3 +1,6 @@
+.section {
+    background-color: #f4f0f0;
+}
 .conferenceCard {
     display: flex;
     background-color: #fff;

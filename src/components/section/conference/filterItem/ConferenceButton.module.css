@@ -1,0 +1,7 @@
+.redPill {
+    background-color: tomato;
+    color: #fff;
+}
+.redPill .title {
+    font-size: 5rem;
+}
